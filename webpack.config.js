@@ -39,7 +39,7 @@ const generateHTMLPlugins = () =>
   });
 
 const isProduction = process.env.NODE_ENV === "production";
-const publicPath = isProduction ? "/ibc-tanks-demo/" : "/";
+const publicPath = isProduction ? "/ibc-tanks/" : "/";
 
 module.exports = {
   mode: isProduction ? "production" : "development",
