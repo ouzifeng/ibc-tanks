@@ -1,0 +1,1020 @@
+[4:20] Harrows Boardroom:
+Hello, it's very late, we had a town hall meeting that Oga ran.
+
+[4:27] David Oak:
+Not a problem.
+
+[4:27] David Oak:
+I hope it was a successful one.
+
+[4:32] Harrows Boardroom:
+Yeah, it was good.
+
+[4:32] Harrows Boardroom:
+We haven't had time to even engage the response.
+
+[4:32] Harrows Boardroom:
+We literally ran back in.
+
+[4:39] David Oak:
+Nice one.
+
+[4:39] David Oak:
+So I assume one of you is Clive?
+
+[4:43] Harrows Boardroom:
+That would be me, yeah.
+
+[4:43] Harrows Boardroom:
+I'm Andy and I've just recently joined the business end of January,
+
+[4:43] Harrows Boardroom:
+mainly working on the B2B side of it, so harrowstarts.com.
+
+[4:43] Harrows Boardroom:
+But my role kind of spreads all over the trade side of things with lots of my nations, so I've got to go next.
+
+[4:43] Harrows Boardroom:
+And Dip is techie, so I can help out when needed.
+
+[5:04] David Oak:
+Nice one, excellent.
+
+[5:04] David Oak:
+Let's crack on then.
+
+[5:04] David Oak:
+Yeah, David here from Sync Dividers slash B2Bware.
+
+[5:04] David Oak:
+I'll explain the relationship in a bit.
+
+[5:04] David Oak:
+know you've expressed a bit of interest in our b2b portal um this is all about understanding you guys what's your gap
+
+[5:04] David Oak:
+what you're looking to achieve
+
+[5:04] David Oak:
+what are your plans in the next 12 24 months
+
+[5:27] Harrows Boardroom:
+so if you'd like to fill in some of those gaps and we can see if we're a good fit and carry on from there yeah so um essentially you've got
+
+[5:27] Harrows Boardroom:
+So we've got a DTC site which is powered by Shopify
+
+[5:27] Harrows Boardroom:
+and what the business did as a sort of a means to try
+
+[5:27] Harrows Boardroom:
+and make it more accessible to order to our B2B
+
+[5:27] Harrows Boardroom:
+and trade customers was to have another Shopify store
+
+[5:53] Harrows Boardroom:
+that has an add-on to get trade pricing but it's not Shopify Plus so it hasn't got all the bits and pieces.
+
+[5:53] Harrows Boardroom:
+And effectively, we get lots of complaints about it being too slow,
+
+[5:53] Harrows Boardroom:
+because we've got a very large number of SKUs,
+
+[5:53] Harrows Boardroom:
+so customers could be placed in a £30,000,
+
+[5:53] Harrows Boardroom:
+£40,000 order, but that could be across, I don't know, like 90, 100 lines easily, sometimes more.
+
+[6:27] Harrows Boardroom:
+what we want to look at is is there the ability to offer our customers a better way of ordering online
+
+[6:27] Harrows Boardroom:
+that doesn't need to be like a web store like a consumer um
+
+[6:27] Harrows Boardroom:
+where they can also see their historic transactions they could repeat orders
+
+[6:27] Harrows Boardroom:
+if they wanted to they could see what they owe us they can see all that good stuff um and not be forced into
+
+[6:27] Harrows Boardroom:
+That's bolting things together to try and make it work.
+
+[7:01] Harrows Boardroom:
+Also, just to add to that, we've done a bit of work on improving the site,
+
+[7:01] Harrows Boardroom:
+like the efficiency and the speed
+
+[7:01] Harrows Boardroom:
+and everything, and if you're a customer
+
+[7:01] Harrows Boardroom:
+and you're ordering, say, 10 different products,
+
+[7:01] Harrows Boardroom:
+a huge quantity of each, that seems to be fine,
+
+[7:01] Harrows Boardroom:
+and the checkout process is streamlined, it's really efficient, is when you get to having 60 to 100 plus different variants in the cart,
+
+[7:23] Harrows Boardroom:
+when you're riding this car i mean the delay to show
+
+[7:23] Harrows Boardroom:
+that your car has been updated pop-up coming up it it's laggy
+
+[7:23] Harrows Boardroom:
+and the customers are getting confused we're getting a lot of complaints there
+
+[7:23] Harrows Boardroom:
+and some of them are just saying we just don't want to order on there can you just work someone
+
+[7:23] Harrows Boardroom:
+through one no it's like can i fill in the spreadsheet yeah no we don't want to
+
+[7:45] David Oak:
+go back yeah again a shop advice card doesn't batch i think so you can't
+
+[7:45] David Oak:
+update multiple SKUs over the API at once, which is why it's so slow.
+
+[7:45] David Oak:
+It's literally creating line items
+
+[7:45] David Oak:
+for every single SKU when they press that button.
+
+[7:45] David Oak:
+10 items, not a problem.
+
+[7:45] David Oak:
+100 items, yeah, that's gonna have a massive lag on it.
+
+[7:45] David Oak:
+So that's where you, probably where that problem's coming in.
+
+[7:45] David Oak:
+I hear the Shopify story a lot.
+
+[8:09] David Oak:
+It's kind of square peg round hole a little bit.
+
+[8:09] David Oak:
+You can kind of fudge it to get it to work,
+
+[8:09] David Oak:
+but I think at your scale, no, obviously you need something dedicated and working because you can't lose out on a
+
+[8:09] David Oak:
+you know, 20, 30, 40, 50,000 pound order, right?
+
+[8:24] Harrows Boardroom:
+Yeah, well, the thing is, we won't lose the order,
+
+[8:24] Harrows Boardroom:
+but we will piss off the customer
+
+[8:24] Harrows Boardroom:
+and end up with them on the phone, giving it to us in a different way.
+
+[8:24] Harrows Boardroom:
+We'd rather not piss them off in the first place.
+
+[8:24] Harrows Boardroom:
+So if there's a more convenient way to get the order for us and for the customer, then we'd rather do that.
+
+[8:24] Harrows Boardroom:
+So we do have OCR, so if they've got a system
+
+[8:45] Harrows Boardroom:
+that generates the purchase order, then they can just email that to us and we'll adjust that.
+
+[8:45] Harrows Boardroom:
+optically recognize it but it's actually still surprises me
+
+[8:45] Harrows Boardroom:
+how many dark companies don't seem to have the system they're not capable of issuing a purchase order
+
+[8:45] Harrows Boardroom:
+so it's for those people that we need to cater
+
+[8:45] Harrows Boardroom:
+for so you've got the top end
+
+[8:45] Harrows Boardroom:
+who can issue a purchase order
+
+[9:09] Harrows Boardroom:
+and our top tier customers are probably top 30 40 customers will be able to issue
+
+[9:09] Harrows Boardroom:
+a purchase order and we can ingest that that's fine it's the next bracket I would say
+
+[9:09] Harrows Boardroom:
+of probably our next 300-ish customers,
+
+[9:09] Harrows Boardroom:
+but they're probably ordering between 10 and 30K an order.
+
+[9:09] Harrows Boardroom:
+That's what this solution I'm hoping will solve.
+
+[9:09] Harrows Boardroom:
+And then below the 5K, 10K is probably the Shopify site,
+
+[9:40] Harrows Boardroom:
+probably what they need because they need to see the image.
+
+[9:40] Harrows Boardroom:
+They need to act more like a consumer
+
+[9:40] Harrows Boardroom:
+because they don't know what they're buying, they need that.
+
+[9:40] Harrows Boardroom:
+reinforcement of, actually, that's what I need, and they're looking at it.
+
+[9:55] David Oak:
+Okay, understood.
+
+[9:55] David Oak:
+Before I get into Syncspire, can I ask,
+
+[9:55] David Oak:
+I assume you guys, are you working off some ELP system?
+
+[10:03] Harrows Boardroom:
+No, it's Microsoft Business Central.
+
+[10:05] David Oak:
+Okay, all right.
+
+[10:05] David Oak:
+Okay, no problem then.
+
+[10:05] David Oak:
+And then the idea is that, of course,
+
+[10:05] David Oak:
+you'd want those B2B orders sinking back into Business Central, right?
+
+[10:14] Harrows Boardroom:
+Absolutely.
+
+[10:15] David Oak:
+Yeah, yeah.
+
+[10:15] Harrows Boardroom:
+That's what it does, doesn't matter where it works.
+
+[10:18] David Oak:
+Okay, yeah, so the bi-directional syncing, yeah.
+
+[10:18] David Oak:
+Okay, thanks for that.
+
+[10:18] David Oak:
+Is there any other information you think I should know?
+
+[10:27] Harrows Boardroom:
+No, I think that's it, really.
+
+[10:29] David Oak:
+Do you have customer-specific pricing for your tier 1, your tier 2, your tier 3?
+
+[10:35] Harrows Boardroom:
+All the pricing we sit within Business Central,
+
+[10:35] Harrows Boardroom:
+so we've done a lot of work simplifying
+
+[10:35] Harrows Boardroom:
+that because that was ridiculously complicated at this time.
+
+[10:35] Harrows Boardroom:
+Diehard security.
+
+[10:35] Harrows Boardroom:
+So there's now a master price list
+
+[10:35] Harrows Boardroom:
+and then from that, customers will have
+
+[10:35] Harrows Boardroom:
+either a discount or they will have a value specific discount depending on how much they spend.
+
+[10:35] Harrows Boardroom:
+So, and that's broadly what it will be.
+
+[11:02] Harrows Boardroom:
+So they'll either have a set discount off of everything on the master price list
+
+[11:02] Harrows Boardroom:
+or they will have a discount depending on the order value that they spend.
+
+[11:02] Harrows Boardroom:
+So if it's 500 quid, they get X.
+
+[11:02] Harrows Boardroom:
+If it's a thousand, they get Y. If it's two and a half, they get Y.
+
+[11:17] David Oak:
+That's already set up in Business Central labels.
+
+[11:23] Harrows Boardroom:
+Yeah, yeah, yeah, that's all in Business Central.
+
+[11:23] Harrows Boardroom:
+And then we use that on the Shopify side of things to reflect
+
+[11:23] Harrows Boardroom:
+that on the front end of the website, and we don't take any payments through Shopify.
+
+[11:23] Harrows Boardroom:
+It's all just done by bank transfer, which is then another step.
+
+[11:23] Harrows Boardroom:
+Yeah, yeah, so that was, yeah, probably another report back.
+
+[11:23] Harrows Boardroom:
+So we don't want to show the stock that we have
+
+[11:23] Harrows Boardroom:
+available because if we showed
+
+[11:47] Harrows Boardroom:
+what we had available, it's not reflective of what we can actually produce.
+
+[11:47] Harrows Boardroom:
+So we didn't want to put people up ordering
+
+[11:47] Harrows Boardroom:
+because it might show that we got zero, but we could build 1,000 within a week.
+
+[11:47] Harrows Boardroom:
+So we just want them to place the order and then we'll fulfill.
+
+[11:47] Harrows Boardroom:
+So yeah, that's one side of it.
+
+[11:47] Harrows Boardroom:
+But yeah, we don't take payment on the shopping cart.
+
+[12:07] David Oak:
+Yeah, yeah, that's pretty standard for B2B.
+
+[12:07] David Oak:
+30 days or whatever set up to do.
+
+[12:21] Harrows Boardroom:
+So if there's a better way, we're very open to that.
+
+[12:27] David Oak:
+Okay.
+
+[12:27] David Oak:
+Yep, I have all the information.
+
+[12:27] David Oak:
+I'll talk a little bit about SyncSpider and B2BWare.
+
+[12:27] David Oak:
+So you'll hear me use SyncSpider and B2BWare in the same sentence.
+
+[12:27] David Oak:
+We are the same company.
+
+[12:27] David Oak:
+SyncSpider has been around for around 15 years.
+
+[12:27] David Oak:
+It's an IPaaS company, integration platform
+
+[12:27] David Oak:
+as a service, cut its teeth building integrations into ERP systems,
+
+[12:27] David Oak:
+Econ systems, 400 plus different types of integrations.
+
+[12:54] David Oak:
+And this is an important part, the foundation of building that B2B site.
+
+[12:54] David Oak:
+So how it works is we deploy SyncSpider, the integration layer as an application layer on top of the ERP system.
+
+[12:54] David Oak:
+We have a lot of customers on Business Central already,
+
+[12:54] David Oak:
+so we're very comfortable working with the API.
+
+[13:15] David Oak:
+What that does, it syncs and pulls in bi-directionally all of the necessary data that we need in terms of e-commerce.
+
+[13:15] David Oak:
+So that's your customers, your orders,
+
+[13:15] David Oak:
+your specific pricing, your stock levels,
+
+[13:15] David Oak:
+if you wanted to have it there,
+
+[13:15] David Oak:
+but not necessarily in your case, but basically everything that an e-commerce store needs to run.
+
+[13:15] David Oak:
+That goes into our middleware, which we call the data hub.
+
+[13:37] David Oak:
+Very unsexy name, but kind of tells you what it does.
+
+[13:37] David Oak:
+Once that's set up in the data hub, nice and clean,
+
+[13:37] David Oak:
+We then build the portal on top of that.
+
+[13:37] David Oak:
+And this is quite important.
+
+[13:37] David Oak:
+I don't wanna get too technical, but we're API first.
+
+[13:37] David Oak:
+And what that means is that because we are effectively sitting on the data
+
+[13:37] David Oak:
+and all we're doing is passing that information from the back end to the front end.
+
+[14:03] David Oak:
+It's very easy for us to build custom functionality,
+
+[14:03] David Oak:
+custom design, you know, you want stock today, we'll turn it on.
+
+[14:03] David Oak:
+You don't wanna show stock tomorrow, we'll turn it off.
+
+[14:03] David Oak:
+Whatever rules you like.
+
+[14:03] David Oak:
+It's very quick for us to build it and pretty cost-effective.
+
+[14:03] David Oak:
+So that's typically how we work.
+
+[14:03] David Oak:
+Any questions around the technical side of things?
+
+[14:24] Harrows Boardroom:
+Not necessarily the technical side,
+
+[14:24] Harrows Boardroom:
+but when you say the build, how does the look
+
+[14:24] Harrows Boardroom:
+and feel come about in the user interface that the customer would see?
+
+[14:24] Harrows Boardroom:
+Where does that come from?
+
+[14:36] David Oak:
+I'll show you.
+
+[14:36] David Oak:
+We have like a template that we start with.
+
+[14:36] David Oak:
+And then it really, really depends on the customer.
+
+[14:36] David Oak:
+So some customers will provide us with their own Figma board and we will just implement that design.
+
+[14:36] David Oak:
+Some companies just say like, hey,
+
+[14:36] David Oak:
+it's good enough, just change the fonts,
+
+[14:36] David Oak:
+change the logos, change the colors so it matches our brand identity.
+
+[14:58] David Oak:
+You can take it as far as you like or as vanilla as you like.
+
+[15:01] Harrows Boardroom:
+Okay, so obviously we could brand it up and we can
+
+[15:01] Harrows Boardroom:
+Do we get, like, a CMS system that we can edit this in, or...?
+
+[15:11] David Oak:
+Exactly, yeah, so it's liquid, so it's very similar to how Shopify works.
+
+[15:16] Harrows Boardroom:
+So what would it look like on the customer's end?
+
+[15:22] David Oak:
+Okay, so I will start with the customer side of things.
+
+[15:22] David Oak:
+So every customer has its own unique identifier,
+
+[15:22] David Oak:
+or every account has its own unique identifier.
+
+[15:22] David Oak:
+And that unique identifier is what we apply those custom rules to.
+
+[15:22] David Oak:
+So what you can and can't buy,
+
+[15:22] David Oak:
+what you can and can't see, your price list,
+
+[15:22] David Oak:
+your volume discounts, whatever it may be, we tailor that to the login across an account.
+
+[15:51] David Oak:
+So everybody who logs in will see a slightly different version if you need it to look like that than everybody else.
+
+[15:51] David Oak:
+But it means it's hyper personalized, hyper tailored,
+
+[15:51] David Oak:
+and hopefully reduces the friction that we're talking about.
+
+[15:51] David Oak:
+Yeah, on this example, you're saying here seeing here.
+
+[15:51] David Oak:
+This is a demo account, but it's a real customer.
+
+[16:13] David Oak:
+It's a Nice green manufacturer based out in Dorset yourself to the hundreds
+
+[16:13] David Oak:
+and different distributors and hotels
+
+[16:13] David Oak:
+and suppliers across the UK as You
+
+[16:13] David Oak:
+when you log into a customer you get your standard login screen email password login
+
+[16:13] David Oak:
+you land on your admin page which is basically just an overview of what have you ordered and
+
+[16:33] David Oak:
+what's the status of that order, has it been dispatched, what's the tracking and all that kind of stuff.
+
+[16:33] David Oak:
+Of course, if you want to reorder
+
+[16:33] David Oak:
+as well, you can do a quick reordering,
+
+[16:33] David Oak:
+but that's just kind of the general, that's what's going on in your account.
+
+[16:33] David Oak:
+But of course you can look, you said one of the things you mentioned there was users can log in,
+
+[16:51] David Oak:
+they can see their previous order history, they can see what's going on.
+
+[16:51] David Oak:
+That's all done on this kind of customer login app.
+
+[16:57] Harrows Boardroom:
+Sorry, they can have multiple users as well, can they?
+
+[17:02] David Oak:
+And then they-
+
+[17:02] David Oak:
+Yeah, multiple users, and each user can have its own level of access as well.
+
+[17:02] David Oak:
+Products page, you've seen the product page, you've seen the product page.
+
+[17:02] David Oak:
+We're very, very heavy on good UX, good UI.
+
+[17:02] David Oak:
+We are e-commerce experts.
+
+[17:02] David Oak:
+We've been doing it for a decade and a half.
+
+[17:02] David Oak:
+We understand that it's the fewest number of clicks.
+
+[17:27] David Oak:
+the least amount of resistance, it does have a very positive impact on what people buy.
+
+[17:27] David Oak:
+People come back because it's easy, they buy more.
+
+[17:27] David Oak:
+So if you've seen a product page, you've seen a product page,
+
+[17:27] David Oak:
+but we can add as many different filters
+
+[17:27] David Oak:
+and data points as necessary based on whatever we brought in from the ERP system.
+
+[17:49] Harrows Boardroom:
+Is this specific to PC, sorry,
+
+[17:49] Harrows Boardroom:
+so the product information and the images and the descriptions and everything,
+
+[17:49] Harrows Boardroom:
+Do you integrate with Linworks at all?
+
+[17:58] David Oak:
+We do have a basic integration with Linworks.
+
+[17:58] David Oak:
+I'll have to flesh out with you a bit later on exactly how deep we need that to go.
+
+[17:58] David Oak:
+But we do work with their experience in.
+
+[17:58] David Oak:
+But because we're using SyncSpider in the middle,
+
+[17:58] David Oak:
+SyncSpider, you can connect as many different types of data sources as you like.
+
+[17:58] David Oak:
+You know, we have customers using FTP servers, their PMI, their,
+
+[18:24] David Oak:
+They're CSVs in some cases, see the ERP system and a bunch of different sources.
+
+[18:24] David Oak:
+And that's how we kind of amalgamate that data into the middleware.
+
+[18:24] David Oak:
+And then what you see on the site is what we get.
+
+[18:37] Harrows Boardroom:
+Okay.
+
+[18:39] David Oak:
+And if you have downloads and products,
+
+[18:39] David Oak:
+brochures and things like that, not a problem.
+
+[18:39] David Oak:
+Of course, we just attach download link against the product.
+
+[18:39] David Oak:
+A couple of key differences between
+
+[18:39] David Oak:
+you beat to see side of things where a customer may just be ordering one or two.
+
+[18:39] David Oak:
+Obviously that's not how B2B works.
+
+[18:39] David Oak:
+So you can bulk order the different types of variations.
+
+[18:39] David Oak:
+So forgive me, I'm not super a fan of darts,
+
+[19:03] David Oak:
+but I assume are there different types of variation,
+
+[19:03] David Oak:
+different weights for the range and different colors maybe?
+
+[19:09] Harrows Boardroom:
+Yeah, that would be very useful.
+
+[19:12] David Oak:
+Yeah, so you know, you can bang in a hundred of those,
+
+[19:12] David Oak:
+300 of those, whatever it may be, add it all to cart and good to go basically.
+
+[19:21] Harrows Boardroom:
+Cause I can't see the price then can, can you have that set or?
+
+[19:27] David Oak:
+Yeah.
+
+[19:27] David Oak:
+Uh, yeah, I have the click, sorry.
+
+[19:27] David Oak:
+I have to click on a, um, on an item, but yes, obviously.
+
+[19:27] David Oak:
+Yeah, yeah, absolutely.
+
+[19:27] David Oak:
+We can select the, uh, we show the pricing
+
+[19:27] David Oak:
+and of course, if, if they, if there are bulk discounts applied to
+
+[19:27] David Oak:
+that particular product, let's say if you order 500 of them, you get 10% off.
+
+[19:27] David Oak:
+That's also where we show it here as well.
+
+[19:27] David Oak:
+Okay.
+
+[19:49] Harrows Boardroom:
+So it's just very authentic.
+
+[19:52] David Oak:
+Sorry?
+
+[19:52] Harrows Boardroom:
+So if there's a customer that has,
+
+[19:52] Harrows Boardroom:
+I don't know, 500 different products they wanted to order
+
+[19:52] Harrows Boardroom:
+and different variations on that,
+
+[19:52] Harrows Boardroom:
+which is what you've got for your platform, I'm assuming is that a bulk upload?
+
+[20:05] David Oak:
+Yeah, exactly that, yeah.
+
+[20:05] David Oak:
+So upload your CSV file, provide a standard demo template,
+
+[20:05] David Oak:
+which is effectively the SKU, whatever your unique identifier is, the upload it,
+
+[20:05] David Oak:
+set up, basically creates a basket, and then you just submit the order.
+
+[20:27] Harrows Boardroom:
+Nice, OK.
+
+[20:29] David Oak:
+Very, very fast.
+
+[20:29] David Oak:
+Yeah, no API lag.
+
+[20:29] David Oak:
+We have customers with over a million products doing hundreds of millions through platform and sales.
+
+[20:29] David Oak:
+And I mean, this is this is enterprise level software.
+
+[20:29] David Oak:
+It's built to work as a problem,
+
+[20:29] David Oak:
+as a proper B2B portal, as opposed to sort of kind of a round peg in a square hole.
+
+[20:52] Harrows Boardroom:
+Okay, and how does the pricing work?
+
+[20:52] Harrows Boardroom:
+The golden question.
+
+[20:58] David Oak:
+Yeah, so there's two parts to it.
+
+[20:58] David Oak:
+Depending on the level of, I would say,
+
+[20:58] David Oak:
+non-vanilla functionality, from
+
+[20:58] David Oak:
+what I can see, it's what you guys need is pretty straightforward.
+
+[20:58] David Oak:
+Is there anything glaring in what I've shown you that is missing?
+
+[21:18] Harrows Boardroom:
+No, I mean, everything will sit in BC
+
+[21:18] Harrows Boardroom:
+that will sync to this, all the pricing,
+
+[21:18] Harrows Boardroom:
+all the customer data, yeah, so yeah,
+
+[21:18] Harrows Boardroom:
+I don't think there's anything glaring with the obvious, it's just the product information, Shopify all from their work, so.
+
+[21:40] David Oak:
+Yeah, we could even pull it in from Shopify because,
+
+[21:40] David Oak:
+you know, we can connect to Shopify
+
+[21:40] David Oak:
+and map images and product data and things like that if it's sitting there already.
+
+[21:40] David Oak:
+It's actually a better idea than connecting it to your PIM.
+
+[21:40] David Oak:
+But then there's a small implementation fee.
+
+[21:40] David Oak:
+It's a top of my head normally for a couple of grand.
+
+[21:40] David Oak:
+It really depends on how much work we need to do in terms of tailoring it.
+
+[22:03] David Oak:
+We already have the business central integration working, so there's no cost there.
+
+[22:03] David Oak:
+Um, and then the monthly fee is based on your GMB through the platform.
+
+[22:03] David Oak:
+So if you could give me an estimate of that,
+
+[22:03] David Oak:
+I'll let you know how much it costs them every month.
+
+[22:19] Harrows Boardroom:
+You mean order throughput?
+
+[22:19] Harrows Boardroom:
+I take it.
+
+[22:22] David Oak:
+Yeah.
+
+[22:22] David Oak:
+So the total over the next 12 months,
+
+[22:22] David Oak:
+what's your estimated, um, uh, federal order value through, through, through a platform through B2C channels.
+
+[22:34] Harrows Boardroom:
+Let's say like 5 million.
+
+[22:36] David Oak:
+Okay.
+
+[22:36] David Oak:
+That's about £850 a month then,
+
+[22:36] David Oak:
+and that'll take you up to £10 million as well, so you can double, still within that range.
+
+[22:44] Harrows Boardroom:
+So, yeah, so that's half the price of Shopify Plus.
+
+[22:49] David Oak:
+Yeah, exactly.
+
+[22:49] David Oak:
+And about a quarter of the price of their B2B software.
+
+[22:56] Harrows Boardroom:
+Well, Shopify Plus is the B2B software, isn't it?
+
+[23:01] David Oak:
+B2B, well, they have Shopify Plus and then they have Plus...
+
+[23:01] David Oak:
+b2b which is about two and a half thousand pounds a month plus implementation fees okay
+
+[23:01] David Oak:
+so that's i mean it's a quick overview right
+
+[23:01] David Oak:
+but hopefully you get the idea it's very much the b2c experience
+
+[23:21] Harrows Boardroom:
+but on a b2b platform i've taken a lot of inspiration from shopify shall we say and time to get live like what's that process like
+
+[23:33] David Oak:
+Yeah, I would say for your build, around two months,
+
+[23:33] David Oak:
+two to three months, the biggest, I would say the biggest time barrier is not actually the build process,
+
+[23:33] David Oak:
+it's getting the correct API credentials, it's making sure
+
+[23:33] David Oak:
+that everything's packed correctly, it's making sure that we have all the correct data sources, which is a bit of a two-way street.
+
+[23:56] David Oak:
+Once we have all that set up, it's a month and a half, two months.
+
+[24:01] Harrows Boardroom:
+Okay, cool.
+
+[24:01] Harrows Boardroom:
+And is there like a demo site?
+
+[24:01] Harrows Boardroom:
+Can we access that demo site and just kind of play around and have a?
+
+[24:09] David Oak:
+Yeah, not a problem.
+
+[24:09] David Oak:
+What I'll do is I'll actually tailor it a little bit more to a few of your products, so it feels a bit more harrowy.
+
+[24:09] David Oak:
+And I'll send over the link if that helps.
+
+[24:20] Harrows Boardroom:
+That would be perfect, yeah.
+
+[24:20] Harrows Boardroom:
+But I really like it, so probably not doing ourselves an advantage in negotiating, but yeah.
+
+[24:20] Harrows Boardroom:
+You could send over the details, mate, that would be great.
+
+[24:31] David Oak:
+Yeah, I mean, we're, you know, we're transparent,
+
+[24:31] David Oak:
+we don't mess about, we know the value of the software, and if everything makes sense, everything makes sense.
+
+[24:31] David Oak:
+So good.
+
+[24:31] David Oak:
+Thanks for the positive feedback.
+
+[24:46] Harrows Boardroom:
+Also very transparent, sometimes too.
+
+[24:46] Harrows Boardroom:
+Sometimes it works, sometimes it doesn't.
+
+[24:46] Harrows Boardroom:
+But yeah, that's great.
+
+[24:46] Harrows Boardroom:
+If you can send the information over in that demo site, that'd be brilliant.
+
+[24:56] David Oak:
+Yeah, not a problem.
+
+[24:56] David Oak:
+Of course, you've got to chuck in a couple of tickets to the Alley Pally, but apart from that.
+
+[25:02] Harrows Boardroom:
+I had to go as Barney Rubble this year in December,
+
+[25:02] Harrows Boardroom:
+I thought I'd be one of the one of the big parts of the job, unfortunately not, but I'm sure we could send you a set dance.
+
+[25:28] David Oak:
+Okay, chaps.
+
+[25:28] David Oak:
+I won't take up any more your time.
+
+[25:28] David Oak:
+I appreciate you back to that meeting.
+
+[25:28] David Oak:
+So I'll fire that demo or probably Monday actually
+
+[25:28] David Oak:
+and We'll pick up conversation from there Brilliant.
+
+[25:40] Harrows Boardroom:
+She's very good.
+
+[25:40] Harrows Boardroom:
+Have a good weekend.
+
+[25:42] David Oak:
+Thank you very much Take care.
+
+[25:42] David Oak:
+Bye.
+
+[25:44] Harrows Boardroom:
+Bye
+

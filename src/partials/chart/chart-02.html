@@ -1,0 +1,95 @@
+<div
+  class="rounded-2xl border border-gray-200 bg-white dark:border-gray-800 dark:bg-white/[0.03]"
+  x-data="{
+    target: 150000,
+    actual: 128000,
+    get pct() { return Math.round((this.actual / this.target) * 100) },
+    get remaining() { return this.target - this.actual }
+  }"
+>
+  <div class="px-5 pt-5 sm:px-6 sm:pt-6">
+    <div class="flex justify-between mb-2">
+      <div>
+        <h3 class="text-lg font-semibold text-gray-800 dark:text-white/90">
+          Monthly Sales Target
+        </h3>
+        <p class="text-theme-sm mt-1 text-gray-500 dark:text-gray-400">
+          March 2026 — B2B portal revenue
+        </p>
+      </div>
+    </div>
+
+    <!-- Radial Progress -->
+    <div class="flex items-center justify-center py-6">
+      <div class="relative" style="width: 220px; height: 220px;">
+        <svg viewBox="0 0 220 220" class="w-full h-full">
+          <!-- Background track -->
+          <circle cx="110" cy="110" r="90" fill="none" stroke="#e5e7eb" stroke-width="14" class="dark:stroke-gray-700"/>
+
+          <!-- Progress arc -->
+          <circle
+            cx="110" cy="110" r="90"
+            fill="none"
+            stroke="#3b82f6"
+            stroke-width="14"
+            stroke-dasharray="565.5"
+            :stroke-dashoffset="565.5 - (565.5 * pct / 100)"
+            stroke-linecap="round"
+            transform="rotate(-90 110 110)"
+            class="transition-all duration-1000"
+            style="filter: drop-shadow(0 0 8px rgba(59,130,246,0.3));"
+          />
+
+          <!-- Inner decorative ring -->
+          <circle cx="110" cy="110" r="72" fill="none" stroke="#e5e7eb" stroke-width="1" opacity="0.3" class="dark:stroke-gray-700"/>
+
+          <!-- Centre percentage text -->
+          <text x="110" y="103" text-anchor="middle" class="fill-gray-800 dark:fill-white" style="font-size: 32px; font-weight: 700; font-family: Inter, sans-serif;" x-text="pct + '%'"></text>
+          <text x="110" y="122" text-anchor="middle" class="fill-gray-400 dark:fill-gray-500" style="font-size: 11px; font-weight: 500; font-family: Inter, sans-serif;">OF TARGET</text>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Status message -->
+    <p class="text-center text-sm text-gray-500 dark:text-gray-400 mb-4">
+      <span class="text-success-600 dark:text-success-400 font-semibold">$<span x-text="(actual/1000).toFixed(0)">128</span>K</span> of
+      <span class="font-semibold text-gray-700 dark:text-gray-300">$<span x-text="(target/1000).toFixed(0)">150</span>K</span> target —
+      <span class="font-medium">$<span x-text="(remaining/1000).toFixed(0)">22</span>K to go</span>
+    </p>
+  </div>
+
+  <!-- Stats footer -->
+  <div
+    class="flex items-center justify-center gap-5 border-t border-gray-200 dark:border-gray-800 px-6 py-3.5 sm:gap-8 sm:py-5"
+  >
+    <div>
+      <p class="text-theme-xs mb-1 text-center text-gray-500 sm:text-sm dark:text-gray-400">
+        Orders
+      </p>
+      <p class="text-base font-semibold text-gray-800 sm:text-lg dark:text-white/90 text-center">
+        89
+      </p>
+    </div>
+    <div class="h-7 w-px bg-gray-200 dark:bg-gray-800"></div>
+    <div>
+      <p class="text-theme-xs mb-1 text-center text-gray-500 sm:text-sm dark:text-gray-400">
+        Avg Order
+      </p>
+      <p class="text-base font-semibold text-gray-800 sm:text-lg dark:text-white/90 text-center">
+        $1,438
+      </p>
+    </div>
+    <div class="h-7 w-px bg-gray-200 dark:bg-gray-800"></div>
+    <div>
+      <p class="text-theme-xs mb-1 text-center text-gray-500 sm:text-sm dark:text-gray-400">
+        Today
+      </p>
+      <p class="flex items-center justify-center gap-1 text-base font-semibold text-gray-800 sm:text-lg dark:text-white/90">
+        $4,250
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M7.60141 2.33683C7.73885 2.18084 7.9401 2.08243 8.16435 2.08243C8.16475 2.08243 8.16516 2.08243 8.16556 2.08243C8.35773 2.08219 8.54998 2.15535 8.69664 2.30191L12.6968 6.29924C12.9898 6.59203 12.9899 7.0669 12.6971 7.3599C12.4044 7.6529 11.9295 7.65306 11.6365 7.36027L8.91435 4.64004L8.91435 13.5C8.91435 13.9142 8.57856 14.25 8.16435 14.25C7.75013 14.25 7.41435 13.9142 7.41435 13.5L7.41435 4.64442L4.69679 7.36025C4.4038 7.65305 3.92893 7.6529 3.63613 7.35992C3.34333 7.06693 3.34348 6.59206 3.63646 6.29926L7.60141 2.33683Z" fill="#039855"/>
+        </svg>
+      </p>
+    </div>
+  </div>
+</div>
